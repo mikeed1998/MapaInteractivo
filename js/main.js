@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Obtén el elemento con el id "datos"
     var datosDiv = document.getElementById('datos');
 
-    // Accede a los datos almacenados en el atributo data-
-    var datosJSON = datosDiv.getAttribute('data-datos');
+    // Accede a los datos almacenados en el atributo data-arreglo
+    var datosJSON = datosDiv.getAttribute('data-arreglo');
 
     // Convierte la cadena JSON de nuevo a un objeto JavaScript
     var datos = JSON.parse(datosJSON);
