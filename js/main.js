@@ -1,20 +1,16 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Obtén el elemento con el id "datos"
-    var datosDiv = document.getElementById('datos');
-
-    // Accede a los datos almacenados en el atributo data-arreglo
-    var datosJSON = datosDiv.getAttribute('data-arreglo');
-
-    // Convierte la cadena JSON de nuevo a un objeto JavaScript
-    var datos = JSON.parse(datosJSON);
-
-    // Haz lo que necesites con los datos en tu script
-    console.log(datos);
-});
-
 
 $(document).ready(function () {
-   
+
+    console.log(datosPHP[1]['sucursal']);
+    console.log(datosPHP.length);
+
+    var arre = new Array();
+    datosPHP.forEach(element => {
+            arre.push(element);
+    });
+
+    console.log(arre);
+
     // Cierra el modal al hacer clic en la "X"
     $(document).on('click', '.close', function () {
         $(this).closest('.estado-modal').hide();
@@ -24,21 +20,6 @@ $(document).ready(function () {
     $(document).on('click', function (e) {
         if ($(e.target).hasClass('estado-modal')) {
             $(e.target).hide();
-        }
-    });
-
-    $.ajax({
-        type: 'GET',  // Puedes ajustar el método según tu configuración
-        url: '../index.php',  // Ajusta la URL según la ubicación de tu script PHP
-        success: function (response) {
-            // La respuesta contiene los datos que puedes manejar
-            var datos = JSON.parse(response);
-            
-            // Procesa el array de datos en JavaScript
-            procesarDatos(datos);
-        },
-        error: function (error) {
-            console.error('Error al obtener datos:', error);
         }
     });
 
@@ -57,10 +38,36 @@ $(document).ready(function () {
         var estadoNombre = state_names[i];
 
         // Agrega el área al mapa
-        $('#map_ID').append('<area id="' + estadoId + '" data-id-estado="' + i + '" alt="' + estadoId + '" title="' + estadoNombre + '" class="area" href="#" shape="poly" coords="..." />');
+        $('#map_ID').append(
+            '<area id="' + estadoId + 
+            '" data-id-estado="' + i + 
+            '" alt="' + estadoId + 
+            '" title="' + estadoNombre + 
+            '" class="area"' +
+            ' href="#"' +
+            ' shape="poly"' +
+            'coords="..." />'
+        );
 
         // Agrega el modal para el estado
-        $('body').append('<div id="modal' + estadoId + '" class="col-6 estado-modal p-5"><span class="close">&times;</span><h1>Sucursales en ' + estadoNombre + '</h1><p>Contenido del modal para ' + estadoNombre + '</p></div>');
+        $('body').append(
+            '<div id="modal' + estadoId + '" class="col-6 estado-modal p-5">' +
+                '<span class="close">&times;</span>' +
+                '<h1>Sucursales en ' + estadoNombre + '</h1>' +
+                (
+                    function () {
+                        var sucursalesHTML = ''; // Variable para almacenar las sucursales
+                        arre.forEach(function (element) {
+                            if (element.estado == i) {
+                                sucursalesHTML += '<p class="fs-5 p-0 m-0">' + element.sucursal + '</p>';
+                            }
+                        });
+                        return sucursalesHTML; // Devuelve el HTML de las sucursales
+                    }
+                )() +
+                '<p>Contenido del modal para ' + estadoNombre + '</p>' +
+            '</div>'
+        );
     }
 });
 
@@ -202,6 +209,7 @@ $(function () {
             cargarEstado(last_selected_id_estado);
     });
                             
-    $('.map').maphilight({ fade: true,strokeColor: 'e82e2e', fillColor: 'e82e2e', fillOpacity: 0.8 });//funciona, pero no cuando se redimienciona la imagen (cuando se cambia el estylo de la img con widt o height)                        
+    $('.map').maphilight({ fade: true,strokeColor: '000000', fillColor: '000000', fillOpacity: 0.6 });//funciona, pero no cuando se redimienciona la imagen (cuando se cambia el estylo de la img con widt o height)                        
 });
 
+// e82e2e
