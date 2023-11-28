@@ -209,7 +209,7 @@ $(function () {
             cargarEstado(last_selected_id_estado);
     });
                             
-    $('.map').maphilight({ fade: true,strokeColor: '000000', fillColor: '000000', fillOpacity: 0.6 });//funciona, pero no cuando se redimienciona la imagen (cuando se cambia el estylo de la img con widt o height)                        
+    $('.map').maphilight({ fade: true, strokeColor: 'FF0000', fillColor: 'FF0000', fillOpacity: 0.6 });//funciona, pero no cuando se redimienciona la imagen (cuando se cambia el estylo de la img con widt o height)                        
 });
 
 // e82e2e
