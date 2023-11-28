@@ -51,7 +51,7 @@ $(document).ready(function () {
 
         // Agrega el modal para el estado
         $('body').append(
-            '<div id="modal' + estadoId + '" class="col-6 estado-modal p-5">' +
+            '<div id="modal' + estadoId + '" class="col-12 estado-modal p-5">' +
                 '<span class="close">&times;</span>' +
                 '<h1>Sucursales en ' + estadoNombre + '</h1>' +
                 (

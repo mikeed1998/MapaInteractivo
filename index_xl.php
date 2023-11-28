@@ -40,14 +40,14 @@
 </head>
 <body>
    
-    <div class="container mt-5">
+    <div class="container mt-5" style="background-color: #FFC000;">
         <div class="row">
             <div class="col-11 mx-auto fs-1 fw-bolder bg-light text-center">
                 Nuestras sucursales
             </div>
         </div>
         <div class="row">
-            <div class="col-9 mx-auto mt-5 text-center bg-light">
+            <div class="col-8 mx-auto mt-5 text-center" style="background-color: #FFC000;">
 
             <form id="form1">
                     <div id="control_map">            
