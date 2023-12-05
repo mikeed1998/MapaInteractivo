@@ -1,18 +1,4 @@
-#control_map{                    
-	float: left;
-	width: 955px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-.map{                    
-	position: relative;
-	right: 80px;
-	top:0px;                    
-        
-}
-#content_mapa{
-	float:right;
-}
+
 .content_list_states{
 	float:left;
 	color: #555;                    
