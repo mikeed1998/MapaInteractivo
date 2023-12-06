@@ -52,42 +52,42 @@
             <form id="form1">
                     <div id="control_map">            
                         <map name="mexico" id="map_ID">
-                            <area id="AGU" data-id-estado="1" alt="AGU" title="Aguascalientes"           class="area" href="#" shape="poly" coords="<?=$coordenadas['AGU_SM'];?>" />
-                            <area id="BCN" data-id-estado="2" alt="BCN" title="Baja California Norte"    class="area" href="#" shape="poly" coords="<?=$coordenadas['BCN_SM'];?>" />
-                            <area id="BCS" data-id-estado="3" alt="BCS" title="Baja California Sur"      class="area" href="#" shape="poly" coords="<?=$coordenadas['BCS_SM'];?>" />
-                            <area id="CAM" data-id-estado="4" alt="CAM" title="Campeche"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['CAM_SM'];?>" />
-                            <area id="COA" data-id-estado="5" alt="COA" title="Coahuila"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['COA_SM'];?>" />
-                            <area id="COL" data-id-estado="6" alt="COL" title="Colima"                   class="area" href="#" shape="poly" coords="<?=$coordenadas['COL_SM'];?>" />            
-                            <area id="CHP" data-id-estado="7" alt="CHP" title="Chiapas"                  class="area" href="#" shape="poly" coords="<?=$coordenadas['CHP_SM'];?>" />            
-                            <area id="CHH" data-id-estado="8" alt="CHH" title="Chihuahua"                class="area" href="#" shape="poly" coords="<?=$coordenadas['CHH_SM'];?>" />
-                            <area id="DIF" data-id-estado="9" alt="DIF" title="Ciudad de México"         class="area" href="#" shape="poly" coords="<?=$coordenadas['DIF_SM'];?>" />
-                            <area id="DUR" data-id-estado="10" alt="DUR" title="Durango"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['DUR_SM'];?>" />            
-                            <area id="GUA" data-id-estado="11" alt="GUA" title="Guanajuato"              class="area" href="#" shape="poly" coords="<?=$coordenadas['GUA_SM'];?>" />
-                            <area id="GRO" data-id-estado="12" alt="GRO" title="Guerrero"                class="area" href="#" shape="poly" coords="<?=$coordenadas['GRO_SM'];?>" />
-                            <area id="HID" data-id-estado="13" alt="HID" title="Hidalgo"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['HID_SM'];?>" />
-                            <area id="JAL" data-id-estado="14" alt="JAL" title="Jalisco"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['JAL_SM'];?>" />
-                            <area id="MEX" data-id-estado="15" alt="MEX" title="Estado de M&eacute;xico" class="area" href="#" shape="poly" coords="<?=$coordenadas['MEX_SM'];?>" />
-                            <area id="MIC" data-id-estado="16" alt="MIC" title="Michoac&aacute;n"        class="area" href="#" shape="poly" coords="<?=$coordenadas['MIC_SM'];?>" />
-                            <area id="MOR" data-id-estado="17" alt="MOR" title="Morelos"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['MOR_SM'];?>" />
-                            <area id="NAY" data-id-estado="18" alt="NAY" title="Nayarit"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['NAY_SM'];?>" />
-                            <area id="NLE" data-id-estado="19" alt="NLE" title="Nuevo Le&oacute;n"       class="area" href="#" shape="poly" coords="<?=$coordenadas['NLE_SM'];?>" />
-                            <area id="OAX" data-id-estado="20" alt="OAX" title="Oaxaca"                  class="area" href="#" shape="poly" coords="<?=$coordenadas['OAX_SM'];?>" />
-                            <area id="PUE" data-id-estado="21" alt="PUE" title="Puebla"                  class="area" href="#" shape="poly" coords="<?=$coordenadas['PUE_SM'];?>" />
-                            <area id="QUE" data-id-estado="22" alt="QUE" title="Quer&eacute;taro"        class="area" href="#" shape="poly" coords="<?=$coordenadas['QUE_SM'];?>" />
-                            <area id="ROO" data-id-estado="23" alt="ROO" title="Quintana Roo"            class="area" href="#" shape="poly" coords="<?=$coordenadas['ROO_SM'];?>" />            
-                            <area id="SLP" data-id-estado="24" alt="SLP" title="SAN luis Potosi"         class="area" href="#" shape="poly" coords="<?=$coordenadas['SLP_SM'];?>" />
-                            <area id="SIN" data-id-estado="25" alt="SIN" title="Sinaloa"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['SIN_SM'];?>" />
-                            <area id="SON" data-id-estado="26" alt="SON" title="Sonora"                  class="area" href="#" shape="poly" coords="<?=$coordenadas['SON_SM'];?>" />
-                            <area id="TAB" data-id-estado="27" alt="TAB" title="Tabasco"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['TAB_SM'];?>" />
-                            <area id="TAM" data-id-estado="28" alt="TAM" title="Tamaulipas"              class="area" href="#" shape="poly" coords="<?=$coordenadas['TAM_SM'];?>" />
-                            <area id="TLA" data-id-estado="29" alt="TLA" title="Tlaxcala"                class="area" href="#" shape="poly" coords="<?=$coordenadas['TLA_SM'];?>" />
-                            <area id="VER" data-id-estado="30" alt="VER" title="Veracruz"                class="area" href="#" shape="poly" coords="<?=$coordenadas['VER_SM'];?>" />
-                            <area id="YUC" data-id-estado="31" alt="YUC" title="Yucat&aacute;n"          class="area" href="#" shape="poly" coords="<?=$coordenadas['YUC_SM'];?>" />
-                            <area id="ZAC" data-id-estado="32" alt="ZAC" title="Zacatecas"               class="area" href="#" shape="poly" coords="<?=$coordenadas['ZAC_SM'];?>" />
+                            <area id="AGU" data-id-estado="1" alt="AGU" title="Aguascalientes"           class="area" href="#" shape="poly" coords="<?=$coordenadas['AGU_XS'];?>" />
+                            <area id="BCN" data-id-estado="2" alt="BCN" title="Baja California Norte"    class="area" href="#" shape="poly" coords="<?=$coordenadas['BCN_XS'];?>" />
+                            <area id="BCS" data-id-estado="3" alt="BCS" title="Baja California Sur"      class="area" href="#" shape="poly" coords="<?=$coordenadas['BCS_XS'];?>" />
+                            <area id="CAM" data-id-estado="4" alt="CAM" title="Campeche"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['CAM_XS'];?>" />
+                            <area id="COA" data-id-estado="5" alt="COA" title="Coahuila"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['COA_XS'];?>" />
+                            <area id="COL" data-id-estado="6" alt="COL" title="Colima"                   class="area" href="#" shape="poly" coords="<?=$coordenadas['COL_XS'];?>" />            
+                            <area id="CHP" data-id-estado="7" alt="CHP" title="Chiapas"                  class="area" href="#" shape="poly" coords="<?=$coordenadas['CHP_XS'];?>" />            
+                            <area id="CHH" data-id-estado="8" alt="CHH" title="Chihuahua"                class="area" href="#" shape="poly" coords="<?=$coordenadas['CHH_XS'];?>" />
+                            <area id="DIF" data-id-estado="9" alt="DIF" title="Ciudad de México"         class="area" href="#" shape="poly" coords="<?=$coordenadas['DIF_XS'];?>" />
+                            <area id="DUR" data-id-estado="10" alt="DUR" title="Durango"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['DUR_XS'];?>" />            
+                            <area id="GUA" data-id-estado="11" alt="GUA" title="Guanajuato"              class="area" href="#" shape="poly" coords="<?=$coordenadas['GUA_XS'];?>" />
+                            <area id="GRO" data-id-estado="12" alt="GRO" title="Guerrero"                class="area" href="#" shape="poly" coords="<?=$coordenadas['GRO_XS'];?>" />
+                            <area id="HID" data-id-estado="13" alt="HID" title="Hidalgo"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['HID_XS'];?>" />
+                            <area id="JAL" data-id-estado="14" alt="JAL" title="Jalisco"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['JAL_XS'];?>" />
+                            <area id="MEX" data-id-estado="15" alt="MEX" title="Estado de M&eacute;xico" class="area" href="#" shape="poly" coords="<?=$coordenadas['MEX_XS'];?>" />
+                            <area id="MIC" data-id-estado="16" alt="MIC" title="Michoac&aacute;n"        class="area" href="#" shape="poly" coords="<?=$coordenadas['MIC_XS'];?>" />
+                            <area id="MOR" data-id-estado="17" alt="MOR" title="Morelos"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['MOR_XS'];?>" />
+                            <area id="NAY" data-id-estado="18" alt="NAY" title="Nayarit"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['NAY_XS'];?>" />
+                            <area id="NLE" data-id-estado="19" alt="NLE" title="Nuevo Le&oacute;n"       class="area" href="#" shape="poly" coords="<?=$coordenadas['NLE_XS'];?>" />
+                            <area id="OAX" data-id-estado="20" alt="OAX" title="Oaxaca"                  class="area" href="#" shape="poly" coords="<?=$coordenadas['OAX_XS'];?>" />
+                            <area id="PUE" data-id-estado="21" alt="PUE" title="Puebla"                  class="area" href="#" shape="poly" coords="<?=$coordenadas['PUE_XS'];?>" />
+                            <area id="QUE" data-id-estado="22" alt="QUE" title="Quer&eacute;taro"        class="area" href="#" shape="poly" coords="<?=$coordenadas['QUE_XS'];?>" />
+                            <area id="ROO" data-id-estado="23" alt="ROO" title="Quintana Roo"            class="area" href="#" shape="poly" coords="<?=$coordenadas['ROO_XS'];?>" />            
+                            <area id="SLP" data-id-estado="24" alt="SLP" title="SAN luis Potosi"         class="area" href="#" shape="poly" coords="<?=$coordenadas['SLP_XS'];?>" />
+                            <area id="SIN" data-id-estado="25" alt="SIN" title="Sinaloa"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['SIN_XS'];?>" />
+                            <area id="SON" data-id-estado="26" alt="SON" title="Sonora"                  class="area" href="#" shape="poly" coords="<?=$coordenadas['SON_XS'];?>" />
+                            <area id="TAB" data-id-estado="27" alt="TAB" title="Tabasco"                 class="area" href="#" shape="poly" coords="<?=$coordenadas['TAB_XS'];?>" />
+                            <area id="TAM" data-id-estado="28" alt="TAM" title="Tamaulipas"              class="area" href="#" shape="poly" coords="<?=$coordenadas['TAM_XS'];?>" />
+                            <area id="TLA" data-id-estado="29" alt="TLA" title="Tlaxcala"                class="area" href="#" shape="poly" coords="<?=$coordenadas['TLA_XS'];?>" />
+                            <area id="VER" data-id-estado="30" alt="VER" title="Veracruz"                class="area" href="#" shape="poly" coords="<?=$coordenadas['VER_XS'];?>" />
+                            <area id="YUC" data-id-estado="31" alt="YUC" title="Yucat&aacute;n"          class="area" href="#" shape="poly" coords="<?=$coordenadas['YUC_XS'];?>" />
+                            <area id="ZAC" data-id-estado="32" alt="ZAC" title="Zacatecas"               class="area" href="#" shape="poly" coords="<?=$coordenadas['ZAC_XS'];?>" />
                         </map>	
 
                         <div id='content_mapa'>            
-                            <img id="map_ID" class="map" src="images/mapaBlack_768.png" usemap="#mexico" title="Mexico" alt="Mexico" />
+                            <img id="map_ID" class="map" src="images/mapaBlack_576.png" usemap="#mexico" title="Mexico" alt="Mexico" />
 			                <!-- <div id="edo" >&nbsp;</div> -->
                             <!-- <div class="escudo"></div> -->
                         </div>        
